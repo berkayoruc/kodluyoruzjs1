@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .bg-dark {
+        background-color: #343a40;
+      }
+      .text-center {
+        margin-top: 24px;
+        text-align: center;
+      }
+      .rounded {
+        border-radius: 0.25rem;
+      }
+      .title {
+        color: orange;
+        font-size: 50px;
+        font-family: Orbitron;
+        letter-spacing: 7px;
+      }
+      .content {
+        color: orange;
+        font-size: 40px;
+        font-family: Orbitron;
+        letter-spacing: 7px;
+      }
+      .clock {
+        position: relative;
+        text-align: center;
+        color: orange;
+        font-size: 60px;
+        font-family: Orbitron;
+        letter-spacing: 7px;
+      }
+    </style>
+  </head>
+  <body class="bg-dark">
+    <div class="text-center">
+      <img
+        src="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png"
+        alt=""
+        class="rounded"
+      />
+    </div>
+    <div class="title text-center"></div>
+    <div id="clock" class="clock text-center" onload="showTime()"></div>
+    <div class="content text-center">
+      tarihinde
+      <strong>Kodluyoruz Frontend Web Development Patikası</strong>'nın
+      Javascript bölümü 1. Ödevindesiniz.
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
